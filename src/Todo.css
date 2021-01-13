@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.list:nth-child(odd) {
+  background-color: #424242;
+}
+.list:nth-child(even) {
+  background-color: #555555;
+}
+
+.list svg.MuiSvgIcon-root {
+  fill: #fff !important;
+}
